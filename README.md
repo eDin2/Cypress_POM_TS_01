@@ -1,11 +1,9 @@
 # Cypress_POM_TS_02
-
 Cypress with TypeScript and Page Objct Model
 
 Das Page Object Model hilft dabei, den Testcode sauber und wartbar zu halten, indem es die Interaktionen mit der Benutzeroberfläche in separate Klassen kapselt. Dies erleichtert die Wiederverwendung und Wartung des Codes.
 
 # In diesem Beispiel haben wir:
-
 Fixtures verwendet, um Selektoren zu speichern.
 Page Object Model verwendet, um die Login-Seite zu kapseln.
 Benutzerdefinierte Befehle erstellt, um wiederholte Aktionen zu kapseln.
