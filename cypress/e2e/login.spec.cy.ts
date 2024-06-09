@@ -12,6 +12,6 @@ describe("Login Tests", () => {
 
   it("should show error for invalid credentials", () => {
     cy.login("locked_out_user", "secret_sauce");
-    cy.get(".error-message").should("be.visible"); // Überprüfe, ob eine Fehlermeldung angezeigt wird
+    cy.get(".error-message").should("be.visible"); // Überprüfe, ob eine Fehlermeldung angezeigt wird, Fehlermeldung muss aber noch abgepasst werden
   });
 });
