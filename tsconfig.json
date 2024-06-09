@@ -1,0 +1,15 @@
+/// <reference types="cypress" />
+
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "moduleResolution": "Node16",
+    "resolveJsonModule": true,
+    "target": "es2020",
+    "module": "Node16",
+    "baseUrl": ".",
+    "lib": ["es5", "dom"],
+    "types": ["cypress", "node"]
+  },
+  "include": ["**/*.ts"]
+}
