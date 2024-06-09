@@ -1,4 +1,6 @@
 /// <reference types="cypress" />
+
+/* 
 // ***********************************************
 // This example commands.ts shows you how to
 // create various custom commands and overwrite
@@ -35,3 +37,12 @@
 //     }
 //   }
 // }
+*/
+
+import { loginPage } from "../pageObjects/loginPage.cy";
+
+Cypress.Commands.add("login", (username: string, password: string) => {
+  loginPage.enterUsername(username);
+  loginPage.enterPassword(password);
+  loginPage.clickLogin();
+});

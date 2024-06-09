@@ -1,0 +1,10 @@
+{
+    "loginPageInputField": {
+      "username": "[data-test='username']",
+      "password": "[data-test='password']"
+    },
+    "loginPageButtons": {
+      "login": "[data-test='login-button']"
+    }
+  }
+  
