@@ -12,7 +12,7 @@
 - Tests geschrieben, die unabhängig und gut strukturiert sind.
 
   
-
+# Ordner Struktur
 - cypress/
 - ├── e2e/
 - │ └── login.spec.ts
@@ -22,7 +22,7 @@
 - │ └── loginPage.ts
 - ├── support/
 - │ ├── commands.ts
-- │ └── index.ts
+- │ └── e2e.ts
 - └── cypress.json
 
   
