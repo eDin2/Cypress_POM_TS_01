@@ -38,6 +38,19 @@ npm install
 
 Dieser Befehl liest die `package.json`-Datei und installiert alle Abhängigkeiten, die für das Projekt erforderlich sind.
 
+### Schritt 8: Cypress öffnen
+Nachdem Cypress installiert ist, kannst du es mit dem folgenden Befehl öffnen:
+
+```bash
+npx cypress open
+```
+
+Dieser Befehl startet die Cypress-Benutzeroberfläche, in der du deine Tests ausführen und verwalten kannst.
+
+### Schritt 9: Erste Tests ausführen
+
+In der Cypress-Benutzeroberfläche kannst du nun deine ersten Tests ausführen. Cypress bietet einige Beispieltests, die du ausprobieren kannst, um dich mit der Umgebung vertraut zu machen.
+
 ### Zusammenfassung der Schritte
 1. **Git installieren** (falls nicht installiert): Git herunterladen
 2. **Node.js und npm installieren** (falls nicht installiert): Node.js herunterladen
@@ -48,9 +61,10 @@ Dieser Befehl liest die `package.json`-Datei und installiert alle Abhängigkeit
 7. **Projektverzeichnis öffnen** (geklontes Repository öffnen)
 8. **Terminal öffnen** (`Terminal` > `Neues Terminal`)
 9. **Abhängigkeiten installieren** (`npm install` im Terminal ausführen)
+10. **Cypress öffnen**: `npx cypress open` im Terminal ausführen
+11. **Erste Tests ausführen**: Beispieltests in der Cypress-Benutzeroberfläche ausprobieren
 
-Mit diesen Schritten solltest du in der Lage sein, ein Repository in VS Code zu klonen und die Abhängigkeiten zu installieren. Viel Erfolg!
-
+Mit diesen Schritten solltest du in der Lage sein, ein Repository in VS Code zu klonen die Abhängigkeiten zu installieren und Cypress in deinem Projekt zu installieren und zu starten. Viel Erfolg!
 # In diesem Beispiel haben wir:
 - Fixtures verwendet, um Selektoren zu speichern.
 - Page Object Model verwendet, um die Login-Seite zu kapseln.
