@@ -48,7 +48,7 @@
 
   
 
-# index.ts
+# e2e.ts
 - Diese Datei importiert die benutzerdefinierten Befehle aus commands.ts. 
 - Dies stellt sicher, dass die benutzerdefinierten Befehle in allen Tests verfügbar sind.
  
