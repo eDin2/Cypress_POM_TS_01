@@ -4,6 +4,52 @@
   
 - Das Page Object Model hilft dabei, den Testcode sauber und wartbar zu halten, indem es die Interaktionen mit der Benutzeroberfläche in separate Klassen kapselt. Dies erleichtert die Wiederverwendung und Wartung des Codes.
  
+# Grobe Anleitung für den Start
+### Schritt 1: Voraussetzungen
+
+Stelle sicher, dass du die folgenden Voraussetzungen erfüllst:
+- **Git**: Git muss auf deinem Computer installiert sein. Du kannst Git von der offiziellen Website herunterladen und installieren.
+- **Node.js und npm**: Node.js und npm müssen installiert sein. Du kannst Node.js von der offiziellen Website herunterladen und installieren.
+- **Visual Studio Code**: VS Code muss auf deinem Computer installiert sein. Du kannst VS Code von der offiziellen Website herunterladen und installieren.
+
+### Schritt 2: VS Code öffnen
+Öffne Visual Studio Code.
+
+### Schritt 3: Git-Erweiterung öffnen
+Klicke auf das Git-Symbol in der Seitenleiste auf der linken Seite von VS Code, um die Git-Erweiterung zu öffnen.
+
+### Schritt 4: Repository klonen
+1. Klicke auf das Symbol für “Repository klonen” (das Symbol sieht aus wie ein Kettenglied).
+2. Ein Eingabefeld erscheint oben in VS Code. Gib die URL des Repositorys ein, das du klonen möchtest, und drücke die Eingabetaste.
+3. Wähle den Ordner aus, in den du das Repository klonen möchtest, und klicke auf “Repository klonen”.
+
+### Schritt 5: In das Projektverzeichnis wechseln
+Nachdem das Repository geklont wurde, wirst du gefragt, ob du das geklonte Repository öffnen möchtest. Klicke auf “Öffnen”, um das Projekt in VS Code zu öffnen.
+
+### Schritt 6: Terminal öffnen
+Öffne das integrierte Terminal in VS Code, indem du auf `Terminal` > `Neues Terminal` im oberen Menü klickst.
+
+### Schritt 7: Abhängigkeiten installieren
+Im Terminal, das sich im Projektverzeichnis befindet, führe den folgenden Befehl aus, um die Abhängigkeiten zu installieren:
+
+```bash
+npm install
+```
+
+Dieser Befehl liest die `package.json`-Datei und installiert alle Abhängigkeiten, die für das Projekt erforderlich sind.
+
+### Zusammenfassung der Schritte
+1. **Git installieren** (falls nicht installiert): Git herunterladen
+2. **Node.js und npm installieren** (falls nicht installiert): Node.js herunterladen
+3. **VS Code installieren** (falls nicht installiert): VS Code herunterladen
+4. **VS Code öffnen**
+5. **Git-Erweiterung öffnen** (Git-Symbol in der Seitenleiste)
+6. **Repository klonen** (URL eingeben und Ordner auswählen)
+7. **Projektverzeichnis öffnen** (geklontes Repository öffnen)
+8. **Terminal öffnen** (`Terminal` > `Neues Terminal`)
+9. **Abhängigkeiten installieren** (`npm install` im Terminal ausführen)
+
+Mit diesen Schritten solltest du in der Lage sein, ein Repository in VS Code zu klonen und die Abhängigkeiten zu installieren. Viel Erfolg!
 
 # In diesem Beispiel haben wir:
 - Fixtures verwendet, um Selektoren zu speichern.
