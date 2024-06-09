@@ -65,6 +65,6 @@
 - appSelectors.json: Enthält die Selektoren für die Elemente auf der Login-Seite.
 - loginPage.ts: Definiert ein Page-Objekt für die Login-Seite und kapselt die Interaktionen.
 - commands.ts: Definiert benutzerdefinierte Cypress-Befehle.
-- index.ts: Importiert die benutzerdefinierten Befehle.
+- e2e.ts: Importiert die benutzerdefinierten Befehle.
 - login.spec.ts: Enthält die eigentlichen Tests für die Login-Seite.
 - Diese Struktur hilft dabei, den Testcode sauber, wartbar und wiederverwendbar zu halten.
